@@ -1,8 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Playpen_Sans } from "next/font/google";
+import "@fortawesome/fontawesome-svg-core/styles.css"
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 import "../styles/globals.scss";
+//ANCHOR - project components
+import Header from "@/components/Header/Header";
 
-const inter = Inter({ subsets: ["latin"] });
+const playpen = Playpen_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={playpen.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
