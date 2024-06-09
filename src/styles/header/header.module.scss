@@ -22,7 +22,7 @@ $custom-bg-color: #543000;
 
 //Navbar.Toggle
 .toggleBtn {
-  border: none;
+  border: none !important;
   &:focus {
     box-shadow: none !important;
   }
