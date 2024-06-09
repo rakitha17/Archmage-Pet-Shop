@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import styles from "../../styles/header/header.module.scss"
+import styles from "@/styles/common/header/header.module.scss"
 //ANCHOR - components
 import Container from "react-bootstrap/Container"
 import Nav from "react-bootstrap/Nav"
@@ -107,7 +107,7 @@ function Header() {
           >
             <Nav.Link href="/cart">
               <Image
-                src="/images/navbar/cart.svg"
+                src="/images/common/navbar/cart.svg"
                 alt="Go to Cart"
                 width={22}
                 height={17}

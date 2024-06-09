@@ -5,7 +5,7 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
 import "../styles/globals.scss";
 //ANCHOR - project components
-import Header from "@/components/Header/Header";
+import Header from "@/components/common/Header/Header";
 
 const playpen = Playpen_Sans({ subsets: ["latin"] });
 

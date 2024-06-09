@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react'
-import styles from '@/styles/featured-products/single-product.module.scss';
+import styles from '@/styles/home/featured-products/single-product.module.scss';
 //ANCHOR - components
 import Image from 'next/image';
 import Card from 'react-bootstrap/Card';

@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-import styles from "@/styles/testimonials-section/testimonials.module.scss"
+import styles from "@/styles/home/testimonials-section/testimonials.module.scss"
 //ANCHOR - components
 import { Container } from 'react-bootstrap'
 //ANCHOR - project components

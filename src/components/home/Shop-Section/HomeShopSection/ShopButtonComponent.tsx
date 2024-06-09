@@ -2,7 +2,7 @@ import React from 'react'
 //ANCHOR - components
 import Button from 'react-bootstrap/Button';
 //ANCHOR - resources
-import styles from '@/styles/shop-section/shop-button-component.module.scss'
+import styles from '@/styles/home/shop-section/shop-button-component.module.scss'
 
 type Props = {
   btnName: string

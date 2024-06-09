@@ -1,10 +1,11 @@
-import React, { useRef } from "react"
+import React from "react"
+import styles from "@/styles/home/testimonials-section/swiper-component.module.scss"
+
 //ANCHOR - components
 import Carousel from "react-bootstrap/Carousel"
 import { Col, Row } from "react-bootstrap"
 //ANCHOR - resources
-import styles from "@/styles/testimonials-section/swiper-component.module.scss"
-import image from "../../../../public/images/testimonial-section/image.png"
+import image from "../../../../../public/images/home/testimonial-section/image.png"
 import Image from "next/image"
 
 export const PrevButton = React.forwardRef<HTMLSpanElement>((props, ref) => {

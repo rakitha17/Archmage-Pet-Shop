@@ -1,14 +1,14 @@
 import React from "react"
-import styles from "@/styles/shop-section/home-shop-section.module.scss"
+import styles from "@/styles/home/shop-section/home-shop-section.module.scss"
 //ANCHOR - components
 import { Container, Row, Col } from "react-bootstrap"
 //ANCHOR - project components
 import SingleShopItem from "./HomeShopSection/SingleShopItem"
 //ANCHOR - resources
-import image1 from "../../../public/images/shop-section/1.png"
-import image2 from "../../../public/images/shop-section/2.png"
-import image3 from "../../../public/images/shop-section/3.png"
-import image4 from "../../../public/images/shop-section/4.png"
+import image1 from "../../../../public/images/home/shop-section/1.png"
+import image2 from "../../../../public/images/home/shop-section/2.png"
+import image3 from "../../../../public/images/home/shop-section/3.png"
+import image4 from "../../../../public/images/home/shop-section/4.png"
 import ShopButtonComponent from "./HomeShopSection/ShopButtonComponent"
 
 const shopItems = [

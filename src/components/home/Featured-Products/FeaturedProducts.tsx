@@ -4,10 +4,10 @@ import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 //ANCHOR - resources
-import dogImage from "../../../public/images/featured-products/1.png"
-import catImage from "../../../public/images/featured-products/2.png"
-import birdImage from "../../../public/images/featured-products/3.png"
-import fishImage from "../../../public/images/featured-products/4.png"
+import dogImage from "../../../../public/images/home/featured-products/1.png"
+import catImage from "../../../../public/images/home/featured-products/2.png"
+import birdImage from "../../../../public/images/home/featured-products/3.png"
+import fishImage from "../../../../public/images/home/featured-products/4.png"
 import SingleProduct from "./FeaturedProducts/SingleProduct"
 
 const productItems = [

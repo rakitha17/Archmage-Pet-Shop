@@ -5,9 +5,9 @@ import React from "react"
 import Card from "react-bootstrap/Card"
 import Image from "next/image"
 //ANCHOR - components
-import styles from '@/styles/shop-section/single-shop-section.module.scss'
+import styles from '@/styles/home/shop-section/single-shop-section.module.scss'
 //ANCHOR - resources
-import cartIcon from '../../../../public/images/shop-section/cart.svg'
+import cartIcon from '../../../../../public/images/home/shop-section/cart.svg'
 
 type Props = {
   name: string
