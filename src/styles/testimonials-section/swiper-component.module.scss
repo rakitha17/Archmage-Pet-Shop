@@ -1,0 +1,45 @@
+.prev_button {
+  display: block;
+  width: 13.5px;
+  height: 23.62px;
+  background-image: url('../../../public/images/testimonial-section/prev.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.next_button {
+  display: block;
+  width: 13.5px;
+  height: 23.62px;
+  background-image: url('../../../public/images/testimonial-section/next.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 767.98px) {
+  .prev_button, .next_button {
+    display: none;
+  }
+}
+
+.carousel_image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.ratings {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-image: url('../../../public/images/testimonial-section/star.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* .carousel-control-prev:has(.prev_button) {
+  opacity: 1 !important;
+} */
