@@ -1,0 +1,11 @@
+$product-bg-color: #F1EDE6;
+
+.single_card {
+  background-color: $product-bg-color;
+  font-size: 20px;
+
+  .product-image{
+    width: 100%;
+    height: auto;
+  }
+}
