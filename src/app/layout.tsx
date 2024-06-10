@@ -6,6 +6,7 @@ config.autoAddCss = false;
 import "../styles/globals.scss";
 //ANCHOR - project components
 import Header from "@/components/common/Header/Header";
+import Footer from "@/components/common/Footer-Section/Footer";
 
 const playpen = Playpen_Sans({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className={playpen.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

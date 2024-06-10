@@ -1,0 +1,23 @@
+$bg-color: #2B1800;
+$text-color: #ffffff;
+$text-color-green: #217E00;
+
+.footer_section {
+  background-color: $bg-color;
+  color: $text-color;
+}
+
+.social_icon_container {
+  width: 17.75px;
+  height: 17.75px;
+
+  .social_icons {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.archmage {
+  color: $text-color-green;
+}
