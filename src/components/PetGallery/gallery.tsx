@@ -12,7 +12,7 @@ import image22 from './../../images/pet-gallery/22.png'
 export function GalleryComponent() {
 
   return (
-    <div className="section">
+    <div className={`section py-5 ${style.sectionBrown}`}>
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-12 col-md-8 pb-5 text-center">
@@ -20,8 +20,8 @@ export function GalleryComponent() {
                     <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                 </div>
             </div>
-            <div className="row">
-                <div className="col-12 col-md-2">
+            <div className="row gap-md-0">
+                <div className="col-6 col-md-2 pt-md-0 pt-3">
                     <Image
                     className="img-fluid"
                     src={image17.src}
@@ -30,7 +30,7 @@ export function GalleryComponent() {
                     height={600}
                     />
                 </div>
-                <div className="col-12 col-md-2">
+                <div className="col-6 col-md-2 pt-md-0 pt-3">
                     <Image
                     className="img-fluid"
                     src={image18.src}
@@ -39,7 +39,7 @@ export function GalleryComponent() {
                     height={600}
                     />
                 </div>
-                <div className="col-12 col-md-2">
+                <div className="col-6 col-md-2 pt-md-0 pt-3">
                     <Image
                     className="img-fluid"
                     src={image19.src}
@@ -48,7 +48,7 @@ export function GalleryComponent() {
                     height={600}
                     />
                 </div>
-                <div className="col-12 col-md-2">
+                <div className="col-6 col-md-2 pt-md-0 pt-3">
                     <Image
                     className="img-fluid"
                     src={image20.src}
@@ -57,7 +57,7 @@ export function GalleryComponent() {
                     height={600}
                     />
                 </div>
-                <div className="col-12 col-md-2">
+                <div className="col-6 col-md-2 pt-md-0 pt-3">
                     <Image
                     className="img-fluid"
                     src={image21.src}
@@ -66,7 +66,7 @@ export function GalleryComponent() {
                     height={600}
                     />
                 </div>
-                <div className="col-12 col-md-2">
+                <div className="col-6 col-md-2 pt-md-0 pt-3">
                     <Image
                     className="img-fluid"
                     src={image22.src}
@@ -74,6 +74,11 @@ export function GalleryComponent() {
                     width={2000}
                     height={600}
                     />
+                </div>
+            </div>
+            <div className="text-center">
+                <div className='pt-5'>
+                    <button className={(style.FurryButton)}>Read More</button>
                 </div>
             </div>
         </div>

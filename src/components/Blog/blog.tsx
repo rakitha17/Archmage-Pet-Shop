@@ -10,7 +10,7 @@ import Image16 from './../../images/blog-home/16.png'
 export function BlogComponent (){
 
   return (
-    <div className={(style.SectionBg,'section py-5')}>
+    <div className={`section py-5 ${style.sectionBrown}`}>
         <div className="container">
             <div className="row text-center">
                 <div className="col-12 pb-5">

@@ -1,0 +1,48 @@
+.sectionBrown {
+    background-color: #543000;
+}
+.emailText {
+    color: #FFFFFF;
+}
+
+.inputText {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 45px;
+    padding-right: 55px;
+}
+
+.SubscribeButton {
+    color: #FFFFFF;
+    background-color: #2B1801;
+    border-radius:0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border: none;
+
+}
+
+.FurryButton {
+    color: #FFFFFF;
+    background-color: #543000;
+    border-radius:40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border: none;
+}
+
+@media (max-width:767px) {
+
+    .sectionBrown {
+        background-color:#F1EDE6;
+    }
+
+    .emailText {
+        color: #000000;
+    }
+
+}
