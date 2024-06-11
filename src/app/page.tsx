@@ -8,18 +8,10 @@ import Newsletter from "@/components/home/Newsletter-Section/Newsletter"
 export default function Home() {
   return (
     <>
-      <section className="py-5">
-        <FeaturedProducts />
-      </section>
-      <section className="py-5">
-        <HomeShopSection />
-      </section>
-      <section className="py-5">
-        <Testimonials />
-      </section>
-      <section>
-        <Newsletter />
-      </section>
+      <FeaturedProducts />
+      <HomeShopSection />
+      <Testimonials />
+      <Newsletter />
     </>
   )
 }
