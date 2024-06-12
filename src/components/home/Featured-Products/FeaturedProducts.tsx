@@ -19,17 +19,19 @@ const productItems = [
 
 function FeaturedProducts() {
   return (
-    <Container>
-      <Row className="gy-4">
-        {productItems.map((val, idx) => {
-          return (
-            <Col xs={12} md={6} lg={3}>
-              <SingleProduct key={idx} image={val.image} name={val.name} />
-            </Col>
-          )
-        })}
-      </Row>
-    </Container>
+    <section> {/* className="py-5" */}
+      <Container>
+        <Row className="gy-4">
+          {productItems.map((val, idx) => {
+            return (
+              <Col xs={12} md={6} lg={3}>
+                <SingleProduct key={idx} image={val.image} name={val.name} />
+              </Col>
+            )
+          })}
+        </Row>
+      </Container>
+    </section>
   )
 }
 

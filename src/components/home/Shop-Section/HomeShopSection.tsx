@@ -20,32 +20,34 @@ const shopItems = [
 
 export default function HomeShopSection() {
   return (
-    <Container>
-      <div className="text-center mb-5">
-        <h1 className="h6 fw-light">Shop</h1>
-        <h2 className={`${styles.heading} h1 fw-bold`}>
-          Furry Friends Emporium
-        </h2>
-      </div>
-      <div className="py-5 mb-5">
-        <Row className="gy-4">
-          {shopItems.map((val, idx) => {
-            return (
-              <Col xs={12} md={6} lg={3}>
-                <SingleShopItem
-                  key={idx}
-                  name={val.name}
-                  image={val.image}
-                  price={val.price}
-                />
-              </Col>
-            )
-          })}
-        </Row>
-      </div>
-      <div className="mb-5 text-center">
-        <ShopButtonComponent btnName="Shop More" />
-      </div>
-    </Container>
+    <section> {/* className="py-5" */}
+      <Container>
+        <div className="text-center mb-5">
+          <h1 className="h6 fw-light">Shop</h1>
+          <h2 className={`${styles.heading} h1 fw-bold`}>
+            Furry Friends Emporium
+          </h2>
+        </div>
+        <div className="py-5 mb-5">
+          <Row className="gy-4">
+            {shopItems.map((val, idx) => {
+              return (
+                <Col xs={12} md={6} lg={3}>
+                  <SingleShopItem
+                    key={idx}
+                    name={val.name}
+                    image={val.image}
+                    price={val.price}
+                  />
+                </Col>
+              )
+            })}
+          </Row>
+        </div>
+        <div className="mb-5 text-center">
+          <ShopButtonComponent btnName="Shop More" />
+        </div>
+      </Container>
+    </section>
   )
 }
