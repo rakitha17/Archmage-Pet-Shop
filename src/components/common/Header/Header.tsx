@@ -10,10 +10,11 @@ import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons"
+import Link from "next/link"
 
 const navbarItems = [
   { name: "Home", path: "/" },
-  { name: "About Us", path: "/about" },
+  { name: "About Us", path: "/aboutus" },
   { name: "Shop", path: "/shop" },
   { name: "Blogs", path: "/blogs" },
   { name: "Contact Us", path: "/contact" },
@@ -73,46 +74,46 @@ function Header() {
             </Navbar.Brand>
             {navbarItems.map((val, idx) => {
               return (
-                <Nav.Link
+                <Link
                   key={idx}
                   href={val.path}
                   className={`${styles.navLinks} ${
                     currentPath === val.path && styles.activeLink
-                  } my-2 my-lg-0 text-white fw-normal`}
+                  } my-2 my-lg-0 text-white fw-normal text-decoration-none`}
                 >
                   {val.name}
-                </Nav.Link>
+                </Link>
               )
             })}
-            <Nav.Link
+            <Link
               href="/privacy-policy"
               className={`${styles.navLinks} ${
                 currentPath === "/privacy-policy" && styles.activeLink
-              } my-2 my-lg-0 d-lg-none text-white fw-normal`}
+              } my-2 my-lg-0 d-lg-none text-white fw-normal text-decoration-none`}
             >
               Privacy Policy
-            </Nav.Link>
-            <Nav.Link
+            </Link>
+            <Link
               href="/terms-and-conditions"
               className={`${styles.navLinks} ${
                 currentPath === "/terms-and-conditions" && styles.activeLink
-              } my-2 my-lg-0 d-lg-none text-white fw-normal`}
+              } my-2 my-lg-0 d-lg-none text-white fw-normal text-decoration-none`}
             >
               Terms & Coditions
-            </Nav.Link>
+            </Link>
           </Nav>
 
           <div
             className={`${styles.cartIconContainer} ms-auto me-auto ms-lg-3 me-lg-0`}
           >
-            <Nav.Link href="/cart">
+            <Link href="/cart">
               <Image
                 src="/images/common/navbar/cart.svg"
                 alt="Go to Cart"
                 width={22}
                 height={17}
               />
-            </Nav.Link>
+            </Link>
           </div>
         </Navbar.Collapse>
       </Container>

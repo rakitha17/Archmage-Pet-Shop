@@ -22,15 +22,15 @@ export default function Home() {
       <CarouselComponent />
       <BreadCrumbComponent/>
       <Furry_friendComponent/>
+      <FeaturedProducts />
+      <HomeShopSection />
       {/* <Save50Component/> */}
+      <Testimonials />
       <BlogComponent/>
       <GalleryComponent/>
       <MapComponent/>
       <NewsLetterComponent/>
-      <FeaturedProducts />
-      <HomeShopSection />
-      <Testimonials />
-      <Newsletter />
+      {/* <Newsletter /> */}
     </>
   )
 }
