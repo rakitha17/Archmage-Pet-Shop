@@ -68,12 +68,12 @@ export default function Home() {
             />
           </div>
           <div className="row">
-            <div className="col-12 col-md-4 text-center text-md-end">
+            <div className="col-12 col-md-4 text-center text-md-end d-flex align-items-center">
               <div className="">
-                <h4 className="Expertise">Expertise</h4>
-                <p className="">Our knowledgeable and friendly staff are here to assist you. From nutrition to grooming, we have the expertise to help you make informed decisions for your pet’s care.</p>
+                <h4 className={`${style.Expertise}`}>Expertise</h4>
+                <p className="pb-md-5 ">Our knowledgeable and friendly staff are here to assist you. From nutrition to grooming, we have the expertise to help you make informed decisions for your pet’s care.</p>
 
-                <h4 className="Expertise">Community Involvement</h4>
+                <h4 className={`${style.Expertise}`}>Community Involvement</h4>
                 <p className="">We believe in giving back to the community. Our Pet Shop actively supports local animal shelters and initiatives aimed at improving the lives of pets in need.</p>
               </div>
             </div>
@@ -89,12 +89,12 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="col-12 col-md-4 text-center text-md-start ">
+            <div className="col-12 col-md-4 text-center text-md-start d-flex align-items-center">
               <div className="">
-                <h4 className="Expertise">Quality Products</h4>
-                <p className="">We carefully curate our selection of products, focusing on quality, durability, and pet safety. Whether it’s premium pet food, stylish accessories, or innovative toys.</p>
+                <h4 className={`${style.Expertise}`}>Quality Products</h4>
+                <p className="pb-md-5 ">We carefully curate our selection of products, focusing on quality, durability, and pet safety. Whether it’s premium pet food, stylish accessories, or innovative toys.</p>
 
-                <h4 className="Expertise">Customer Satisfaction</h4>
+                <h4 className={`${style.Expertise}`}>Customer Satisfaction</h4>
                 <p className="">Your satisfaction is our top priority. We are committed to providing excellent customer service, ensuring that you and your pet have a positive experience every time you visit.</p>
               </div>
             </div>

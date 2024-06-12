@@ -20,7 +20,7 @@ export function BlogComponent (){
             </div>
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 <div className="col">
-                    <div className="card h-100 border-0">
+                    <div className={`card h-100 ${style.card}`}>
                         <Image src={Image14.src} 
                         className="img-fluid" 
                         alt="Card image 1"
@@ -28,16 +28,16 @@ export function BlogComponent (){
                         height={600} />
                         
                         <div className="card-body">
-                            <h5 className="card-title">Blog 01</h5>
+                            <h5 className={`card-title ${style.cardTitle}`}>Blog 01</h5>
                             <p className="card-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
                             </p>
-                            <a href='/' className={(style.ReadMore, 'link-underline link-underline-opacity-0')}>Read More</a>
+                            <a href='/' className={`link-underline link-underline-opacity-0 ${style.ReadMore}`}>Read More{" >>"} </a>
                         </div>
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card h-100 border-0">
+                    <div className={`card h-100 ${style.card}`}>
                         <Image src={Image15.src} 
                         className="img-fluid" 
                         alt="Card image 2"
@@ -45,16 +45,16 @@ export function BlogComponent (){
                         height={600} />
                         
                         <div className="card-body">
-                            <h5 className="card-title">Blog 02</h5>
+                            <h5 className={`card-title ${style.cardTitle}`}>Blog 02</h5>
                             <p className="card-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
                             </p>
-                            <a href='/' className={(style.ReadMore, 'link-underline link-underline-opacity-0')}>Read More</a>
+                            <a href='/' className={`link-underline link-underline-opacity-0 ${style.ReadMore}`}>Read More{" >>"} </a>
                         </div>
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card h-100 border-0">
+                    <div className={`card h-100 ${style.card}`}>
                         <Image src={Image16.src} 
                         className="img-fluid" 
                         alt="Card image 2"
@@ -62,11 +62,11 @@ export function BlogComponent (){
                         height={600} />
                         
                         <div className="card-body">
-                            <h5 className="card-title">Blog 03</h5>
+                            <h5 className={`card-title ${style.cardTitle}`}>Blog 03</h5>
                             <p className="card-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
                             </p>
-                            <a href='/' className={(style.ReadMore, 'link-underline link-underline-opacity-0')}>Read More</a>
+                            <a href='/' className={`link-underline link-underline-opacity-0 ${style.ReadMore}`}>Read More{" >>"} </a>
                         </div>
                     </div>
                 </div>
