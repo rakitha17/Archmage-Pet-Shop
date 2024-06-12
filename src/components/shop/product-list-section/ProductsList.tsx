@@ -33,7 +33,7 @@ export default function ProductsList() {
           <Row className="gy-4">
             {productList.map((val, idx) => {
               return (
-                <Col xs={12} md={6} lg={3} key={idx}>
+                <Col key={idx} xs={12} md={6} lg={3}>
                   <SingleShopItem
                     name={val.name}
                     price={val.price}
