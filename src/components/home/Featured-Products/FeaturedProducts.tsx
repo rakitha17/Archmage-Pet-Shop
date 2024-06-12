@@ -19,7 +19,7 @@ const productItems = [
 
 function FeaturedProducts() {
   return (
-    <section> {/* className="py-5" */}
+    <section className="py-5"> {/* className="py-5" */}
       <Container>
         <Row className="gy-4">
           {productItems.map((val, idx) => {

@@ -9,7 +9,7 @@ import SwiperComponent from "./Testimonials/SwiperComponent"
 
 export default function Testimonials() {
   return (
-    <section> {/* className="py-5" */}
+    <section className="py-5"> {/* className="py-5" */}
       <Container>
         <div className="text-center mb-5">
           <h1 className="h6 fw-light">Testimonial</h1>

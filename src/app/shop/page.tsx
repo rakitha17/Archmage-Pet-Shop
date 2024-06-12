@@ -3,13 +3,15 @@ import React from 'react'
 import Banner from '@/components/shop/banner-section/Banner'
 import ProductsList from '@/components/shop/product-list-section/ProductsList'
 import Newsletter from '@/components/home/Newsletter-Section/Newsletter'
+import { BreadCrumbComponent } from '@/components/Breadcrumb/breadcrumb'
 
 export default function ShopPage() {
   return (
-    <section>
+    <>
       <Banner />
+      <BreadCrumbComponent />
       <ProductsList />
       <Newsletter />
-    </section>
+    </>
   )
 }
