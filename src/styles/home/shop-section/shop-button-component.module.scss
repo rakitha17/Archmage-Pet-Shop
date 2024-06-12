@@ -1,0 +1,17 @@
+$bg-color: #543000;
+$text-color-default: #ffffff;
+
+.btn_style {
+  background-color: $bg-color;
+  border-radius: 30px;
+  width: 185px;
+  height: 62px;
+  color: $text-color-default;
+  border: 2px solid $bg-color !important;
+  transition: all .2s ease-in;
+
+  &:hover {
+    color: $bg-color;
+    background-color: $text-color-default;
+  }
+}
