@@ -1,0 +1,36 @@
+.OffDev {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: -50rem;
+}
+.Save50Text{
+     color: #543000;
+}
+.ShopButton{
+    color: #FFFFFF;
+    background-color: #543000;
+    border-radius:40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border: none;
+}
+.GreenText{
+    color: #217E00;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+
+@media (max-width:767px) {
+
+    .OffDev {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        margin-top: -13rem;
+    }
+
+    
+}
