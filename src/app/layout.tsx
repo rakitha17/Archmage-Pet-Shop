@@ -1,9 +1,15 @@
 import type { Metadata } from "next";
 import { Playpen_Sans } from "next/font/google";
 import "../styles/globals.scss";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "@fortawesome/fontawesome-svg-core/styles.css"
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 
-const PlaypenSans = Playpen_Sans({ subsets: ["latin"] });
+const playpen = Playpen_Sans({ subsets: ["latin"] });
+
+//ANCHOR - project components
+import Header from "@/components/common/Header/Header";
+import Footer from "@/components/common/Footer-Section/Footer";
 
 export const metadata: Metadata = {
   title: "Pet Shop",
@@ -17,8 +23,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={PlaypenSans.className}>
+      <body className={playpen.className}>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
