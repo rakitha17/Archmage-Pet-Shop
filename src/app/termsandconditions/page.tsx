@@ -1,5 +1,7 @@
 "use client"
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { BreadCrumbComponent } from '@/components/Breadcrumb/breadcrumb'
 import { NewsLetterComponent } from '@/components/NewsLetter/newsletter'
 import React from 'react'
@@ -10,7 +12,7 @@ export default function page() {
   return (
     <div>
 
-        {/* <HeroBannerComponent/> */}
+        <HeroBannerComponent/>
         <BreadCrumbComponent/>
         <div className="section py-5">
             <div className="container">

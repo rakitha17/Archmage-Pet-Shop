@@ -23,7 +23,7 @@ export function HeroBannerComponent () {
                 </div>
             </div>
         </div>
-        <div className="container">
+        <div className="container ">
             <div className={style.heroText}>
                 <h1 className=''>Furry Friends Family</h1>
             </div>
