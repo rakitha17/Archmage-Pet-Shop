@@ -24,11 +24,11 @@ const socialLinks = [
 
 const footerNavLinks = [
   { item: "Home", path: "/" },
-  { item: "About Us", path: "/about-us" },
+  { item: "About Us", path: "/aboutus" },
   { item: "Shop", path: "/shop" },
-  { item: "Blogs", path: "/blogs" },
+  { item: "Blogs", path: "/blog" },
   { item: "FAQs", path: "/faqs" },
-  { item: "Contact Us", path: "/contact-us" },
+  { item: "Contact Us", path: "/contact" },
   { item: "Privacy Policy", path: "/privacy-policy" },
   { item: "Terms & Conditions", path: "/terms-and-conditions" },
 ]
@@ -89,13 +89,13 @@ export default function Footer() {
             <Nav className="flex-column flex-lg-row justify-content-center">
               {footerNavLinks.map((val, idx) => {
                 return (
-                  <Nav.Link
+                  <Link
                     key={idx}
                     href={val.path}
-                    className="text-white text-decoration-none mb-2"
+                    className="text-white text-decoration-none mx-lg-4 mb-4 mb-lg-0"
                   >
                     {val.item}
-                  </Nav.Link>
+                  </Link>
                 )
               })}
             </Nav>

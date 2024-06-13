@@ -16,7 +16,7 @@ const navbarItems = [
   { name: "Home", path: "/" },
   { name: "About Us", path: "/aboutus" },
   { name: "Shop", path: "/shop" },
-  { name: "Blogs", path: "/blogs" },
+  { name: "Blogs", path: "/blog" },
   { name: "Contact Us", path: "/contact" },
 ]
 
