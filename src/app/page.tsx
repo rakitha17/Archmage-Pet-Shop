@@ -44,11 +44,11 @@ const HomePage = () => {
       <ModalComponent show={showPopup} handleClose={handleClose} />
     </div>
   );
-}; */
+};
 
 export default HomePage;
-=======
-import { CarouselComponent } from "@/components/Carousel/carousel";
+
+import { CarouselComponent } from "@/components/Carousel/carousel"; */
  
 export default function Home() {
   const [showPopup, setShowPopup] = useState(true);
