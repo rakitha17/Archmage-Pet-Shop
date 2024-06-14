@@ -32,9 +32,8 @@ export default function HomeShopSection() {
           <Row className="gy-4">
             {shopItems.map((val, idx) => {
               return (
-                <Col xs={12} md={6} lg={3}>
+                <Col key={idx} xs={12} md={6} lg={3}>
                   <SingleShopItem
-                    key={idx}
                     name={val.name}
                     image={val.image}
                     price={val.price}
