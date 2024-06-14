@@ -3,6 +3,8 @@
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: -50rem;
+    transform: translate(10px,100px);
+    // position: relative;
 }
 .Save50Text{
      color: #543000;
@@ -23,14 +25,14 @@
     padding-top: 0px;
 }
 
-@media (max-width:767px) {
+// @media (max-width:767px) {
 
-    .OffDev {
-        text-align: center;
-        padding-top: 20px;
-        padding-bottom: 0px;
-        margin-top: -13rem;
-    }
+//     .OffDev {
+//         text-align: center;
+//         padding-top: 20px;
+//         padding-bottom: 0px;
+//         margin-top: -13rem;
+//     }
 
     
-}
+// }

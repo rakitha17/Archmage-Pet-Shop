@@ -13,7 +13,7 @@ import { NewsLetterComponent } from "@/components/NewsLetter/newsletter";
 export default function Home() {
   return (
     <div>
-      {/* <HeroBannerComponent/> */}
+      <HeroBannerComponent/>
       <BreadCrumbComponent/>
       <div className="section py-5">
         <div className="container">

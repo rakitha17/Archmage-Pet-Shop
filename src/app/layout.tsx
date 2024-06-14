@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
 import { Playpen_Sans } from "next/font/google";
 import "../styles/globals.scss";
+
+//import 'bootstrap/dist/css/bootstrap.min.css';
+//import '@fortawesome/fontawesome-free/css/all.min.css';
+
 import "@fortawesome/fontawesome-svg-core/styles.css"
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
+
 
 const playpen = Playpen_Sans({ subsets: ["latin"] });
 

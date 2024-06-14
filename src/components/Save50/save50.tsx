@@ -6,7 +6,7 @@ import Image12 from './../../images/12.png';
 
 export function Save50Component () {
   return (
-    <section className='py-5'>
+    <section className=' position-relative'>
       <div className="container-fluid p-0">
           <div className="col-12 col-md-12">
           <Image
@@ -17,7 +17,7 @@ export function Save50Component () {
               height={400} // Adjust these values based on your image size
               className="img-fluid save-banner"
             />
-              <div className={style.OffDev}>
+              <div className={`position-absolute top-50 start-50 translate-middle text-center ${style.OffDev}}`}>
                   <p className='text-white'>Buy 1 Get 1</p>
                   <h1 className={style.Save50Text}>Save 50% Off</h1>
                   <p className='text-white'>Safe and effective products</p>
