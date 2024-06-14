@@ -1,0 +1,20 @@
+$bg-color-desktop: #543000;
+$bg-color-mobile: #F1EDE6;
+$text-color-desktop: #ffffff;
+$text-color-mobile: #000000;
+
+.main_container {
+  background-color: $bg-color-desktop;
+  color: $text-color-desktop;
+}
+
+.heading {
+  font-size: 2.2rem;
+}
+
+@media screen and (max-width: 767.98px) {
+  .main_container {
+    background-color: $bg-color-mobile;
+    color: $text-color-mobile;
+  }
+}

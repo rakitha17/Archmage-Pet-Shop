@@ -1,0 +1,20 @@
+$bg-color: #F1EDE6;
+$price-color: #217E00;
+
+.single_image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.carticon_container {
+  width: 33px;
+  height: 33px;
+  border-radius: 5px;
+  background-color: $bg-color;
+}
+
+.price_tag {
+  color: $price-color;
+  font-size: 20px;
+}
