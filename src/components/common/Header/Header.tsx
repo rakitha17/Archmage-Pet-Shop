@@ -94,9 +94,9 @@ function Header() {
               Privacy Policy
             </Link>
             <Link
-              href="/terms-and-conditions"
+              href="/termsandconditions"
               className={`${styles.navLinks} ${
-                currentPath === "/terms-and-conditions" && styles.activeLink
+                currentPath === "/termsandconditions" && styles.activeLink
               } my-2 my-lg-0 d-lg-none text-white fw-normal text-decoration-none`}
             >
               Terms & Coditions

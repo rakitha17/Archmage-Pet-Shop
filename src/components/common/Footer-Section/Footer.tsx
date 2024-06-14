@@ -30,7 +30,7 @@ const footerNavLinks = [
   { item: "FAQs", path: "/faqs" },
   { item: "Contact Us", path: "/contact" },
   { item: "Privacy Policy", path: "/privacy-policy" },
-  { item: "Terms & Conditions", path: "/terms-and-conditions" },
+  { item: "Terms & Conditions", path: "/termsandconditions" },
 ]
 
 export default function Footer() {
